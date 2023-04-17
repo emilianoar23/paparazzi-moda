@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+::selection {
+    background-color: rgba(83, 145, 177, 0.76);
+}
+
+/*----------------- HEADER -----------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.logo-container img {
+    width: 70px;
+    margin: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 5px 15px;
+    margin: 30px;
+}
+
+/*----------------- FOOTER -----------------*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.canales-contacto {
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.telefono {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.correo {
+    display: flex;
+    align-items: center;
+        margin: 10px;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.redes-ico {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.footerico {
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.medios-pago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.medios-ico {
+    display: flex;
+    align-items: stretch;
+}
+
+.pago-ico {
+    width: 40px;
+    margin: 10px;
+}
+
