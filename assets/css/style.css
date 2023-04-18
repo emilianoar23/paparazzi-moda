@@ -35,6 +35,7 @@ nav ul li a {
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
+    color: #3c3c3c;
 }
 
 .logo-container img {
@@ -137,3 +138,58 @@ hr {
     margin: 10px;
 }
 
+/*---------------- C. MUJER ----------------*/
+.coleccion-mujer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3c3c3c25;
+    padding: 80px;
+}
+
+.coleccion-mujer img {
+    width: 50rem;
+    margin-right: 60px;
+}
+
+.coleccion-mujer h2 {
+    font-size: 6em;
+    margin: 40px;
+}
+
+/*---------------- C. HOMBRE ---------------*/
+.coleccion-hombre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.coleccion-hombre h2 {
+    font-size: 6em;
+    margin: 40px;
+}
+
+.coleccion-hombre img {
+    width: 50rem;
+    margin-left: 60px;
+}
+
+/*--------------- ACCESORIOS ---------------*/
+.accesorios {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3c3c3c25;
+    padding: 80px;
+}
+
+.accesorios img {
+    width: 50rem;
+    margin-right: 60px;
+}
+
+.accesorios h2 {
+    font-size: 6em;
+    margin: 40px;
+}
