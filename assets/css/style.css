@@ -221,24 +221,18 @@ iframe {
 
 /*------------PAG. COLECCION MUJER------------*/
 .container{
-    display:flex;
-    /*grid-template-columns: 2 60%;
-    grid-template-rows: 1 80%;*/
-    background-color:red;
+    margin:auto;
+    padding: 40px;
+    max-width: 2000vh;
+    height: 2000px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(1, 50%);
+    gap: 40px;
 }
 
-
-
-
-.container > .container1{
-    display:flex;
-    width:100px;
-    height:300px;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 5%;
-    justify-content: flex-start;
+.container1{
+    width:70%;
 }
 
 .container1 > img{
@@ -273,13 +267,18 @@ iframe {
 }
 
 .container2{
-    display:flex;
-    justify-content: flex-end;
-    align-content:flex-end;
-    width:80px;
-    height:30px;
-    flex-wrap: wrap;
-    display:inline-block
-    
-    /*overflow-y: scroll;*/
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 40%);
+    gap: 40px;
+    overflow-y: scroll;
 }
+
+.prod{
+    width:200px;
+}
+
+
+
+
+
