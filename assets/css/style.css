@@ -9,16 +9,14 @@
 }
 
 body {
-    background: #C9CCD3;
-    background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
-    background-blend-mode: lighten;
+    background-color: #DFD3C3;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 ::selection {
-    background-color: rgba(83, 145, 177, 0.76);
+    background-color: #FBD46D;
 }
 
 /*----------------- HEADER -----------------*/
@@ -26,18 +24,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color:#F8EDE3;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 30px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    margin: 10px;
-    font-weight: bold;
-    color: #3c3c3c;
+.menu-container {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-container img {
@@ -57,7 +50,111 @@ button {
     margin: 30px;
 }
 
+/*------------------- MENU ------------------*/
+#menu {
+z-index: 2;
+}
+
+#menu-bar {
+width: 40px;
+height: 40px;
+margin: 30px 0 20px 20px;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.bar {
+height: 5px;
+width: 100%;
+background-color:#85586F;
+display: block;
+border-radius: 5px;
+transition: 0.3s ease;
+}
+
+#bar1 {
+transform: translateY(-4px);
+}
+
+#bar3 {
+transform: translateY(4px);
+}
+
+.nav {
+transition: 0.3s ease;
+display: none;
+}
+
+.nav ul {
+padding: 0 22px;
+}
+
+.nav li {
+list-style: none;
+padding: 12px 0;
+}
+
+.nav li a {
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+
+.nav li a:hover {
+font-weight: bold;
+color: #533846;
+}
+
+.menu-bg, #menu {
+top: 0;
+left: 0;
+position: absolute;
+}
+
+.menu-bg {
+z-index: 1;
+width: 0;
+height: 0;
+margin: 70px 0 20px 20px;
+background: radial-gradient(circle, #85586F, #85586F);
+border-radius: 50%;
+transition: 0.3s ease;
+}
+
+.change {
+display: block;
+}
+
+.change .bar {
+background-color: white;
+}
+
+.change #bar1 {
+transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+opacity: 0;
+}
+
+.change #bar3 {
+transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+width: 520px;
+height: 460px;
+transform: translate(-60%,-30%);
+}
+
 /*----------------- FOOTER -----------------*/
+footer {
+    background-color: #85586F;
+}
+
 .footer-secciones {
     display: flex;
     justify-content: space-between;
