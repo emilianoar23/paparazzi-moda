@@ -12,7 +12,8 @@ body {
     background-color: #DFD3C3;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 ::selection {
@@ -25,12 +26,6 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color:#F8EDE3;
-}
-
-.menu-container {
-        display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .logo-container img {
@@ -63,7 +58,6 @@ cursor: pointer;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
 }
 
 .bar {
@@ -222,6 +216,7 @@ footer {
 .pago-ico {
     width: 2.5em;
     margin: 10px;
+    border-radius: 3px;
 }
 
 hr {
