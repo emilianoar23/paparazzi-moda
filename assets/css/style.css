@@ -311,8 +311,7 @@ iframe {
     margin: 40px;
 }
 
-
-/*------------PAG. COLECCION MUJER------------*/
+/*------------- COLECCION MUJER ------------*/
 .container{
     margin:auto;
     padding: 40px;
@@ -324,7 +323,7 @@ iframe {
 
 .container1{
     width:100%;
-    background-image: url(/assets/media/img/colmujer.jpg);
+    background-image: url(../../assets/media/img/colmujer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid black;
@@ -395,6 +394,80 @@ iframe {
 .descripcion{
     padding:15px;
     bottom:10px;
+}
+/*------------- MEDIOS DE PAGO -------------*/
+.hero-mpago {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+    background-image: url(../../assets/media/img/hero-mpago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mpago h2 {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.secciones-mpago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 130px;
+}
+
+.mpago-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-chico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    width: 15vw;
+    margin: 30px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border-radius: 20px;
+}
+
+.container-chico p {
+    font-size: 1.1rem;
+}
+
+.container-chico img {
+    max-width: 50%;
+    height: auto;
+    margin: 5px;
+}
+
+.container-grande {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    width: 60vw;
+    margin: 30px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border-radius: 20px;
+}
+
+.container-grande img {
+    max-width: 20%;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
 }
 
 /*---------------- CONTACTO ----------------*/
