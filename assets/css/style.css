@@ -362,6 +362,7 @@ iframe {
 .container2{
     max-width: 100%;
     display:grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 30%);
     gap: 60px;
