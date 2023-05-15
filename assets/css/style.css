@@ -315,7 +315,7 @@ iframe {
 .container{
     margin:auto;
     padding: 40px;
-    max-width: 2000vh;
+    max-width: 2000px;
     display:grid;
     grid-template-rows: 400px 2fr;
     gap: 40px;
@@ -323,7 +323,7 @@ iframe {
 
 .container1{
     width:100%;
-    background-image: url(/assets/media/img/colmujer.jpg);
+    background-image: url(../media/img/colmujer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid black;
@@ -392,6 +392,96 @@ iframe {
 }
 
 .descripcion{
+    padding:15px;
+    bottom:10px;
+}
+
+
+/*------------PÁG. COLECCIÓN HOMBRE---------*/
+.container-h{
+    margin:auto;
+    padding: 40px;
+    max-width: 2000px;
+    display:grid;
+    grid-template-rows: 400px 2fr;
+    gap: 40px;
+}
+
+.container1-h{
+    width:100%;
+    background-image: url(../media/img/colhombre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+.banner-h{
+    position: relative;
+    background-color: #FFFAF4;
+    border: 2px solid black;
+    width: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top:10%;
+    left: 25%;
+    animation-name: cambioFondo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambioFondo {
+    60% {background-color: #FFFAF4;}
+    60% {background-color: #f8ede3;}
+    60% {background-color: #dfd3c3;}
+    60% {background-color: #85586f;}
+}
+
+.texto-h{
+    display:flex;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    bottom: 25%;
+    left: 28%;
+    color: black;
+    text-shadow: -6px 0 whitesmoke;
+}
+
+.container2-h{
+    max-width: 1000vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30%);
+    gap: 60px;
+}
+
+.prod-h{
+    width:auto;
+    height:auto;
+    min-width: 5%;
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: all 300ms;
+    margin: 0px 15px;
+}
+
+.prod-h:hover{
+    transform: scale(1.10);
+}
+
+#img5-h, #img7-h, #img8-h, #img9-h{
+    width: 400px;
+    height: 460px;
+}
+
+#img1-h{
+    height: 500px;
+}
+
+.descripcion-h{
     padding:15px;
     bottom:10px;
 }
