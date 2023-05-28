@@ -1021,7 +1021,7 @@ footer {
 }
 
 /*---------------- TABLETS -----------------*/
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 
 /*------------------ HOME ------------------*/
 .logo-container {
@@ -1100,4 +1100,10 @@ iframe {
 }
 
 /*------------- PC ESCRITORIO --------------*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+}
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {}
