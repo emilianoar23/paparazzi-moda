@@ -12,9 +12,9 @@ ResizePixel – Para renderizar las imágenes
 Google Drive – Almacenamiento de Imágenes a utilizar
 Link: https://drive.google.com/drive/folders/10iky6i-rcTh_VD0uU87OOc1coqCMRQBS <br>
 Tareas y Participación de Cada Integrante <br>
-Cecilia Rava y Leonardo Conca:
+Cecilia Rava y Leonardo Conca:<br>
 •	Participación en el mockup de la página web. <br>
-Emiliano Romero:<br>
+<br>Emiliano Romero:<br>
 •	Maquetación en HTML y CSS de las páginas “Inicio”, “Medios de Pago” y “Contacto”.<br>
 •	Creación del header.<br>
 •	Creación del menú dinámico “hamburguesa” utilizando Javascript.<br>
@@ -26,7 +26,7 @@ Emiliano Romero:<br>
 •	Importación de fuentes de Google Fonts.<br>
 •	Creación de Media Queries Mobile, Tablets y PC Escritorio. <br>
 •	Búsqueda y renderización de imágenes. <br>
-Victoria Marchi: <br>
+<br>Victoria Marchi: <br>
 •	Maquetación en HTML y CSS de páginas “Colección Hombre”, “Colección Mujer” y “Accesorios”.<br>
 •	Creación de animación de Banners en páginas “Colección Hombre”, “Colección Mujer” y “Accesorios”.<br>
 •	Utilización de Flexbox y Grid.<br>
