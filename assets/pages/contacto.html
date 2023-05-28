@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +10,27 @@
     <script src="../src/menu.js"></script>
     <title>Paparazzi</title>
 </head>
+
 <body>
     <header>
         <div class="menu-container">
-        <div id="menu">
-            <div id="menu-bar" onclick="menuOnClick()">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="../../index.html">Inicio</a></li>
+                        <li><a href="../pages/colmujer.html">Colección Mujer</a></li>
+                        <li><a href="../pages/colhombre.html">Colección Hombre</a></li>
+                        <li><a href="../pages/accesorios.html">Accesorios</a></li>
+                        <li><a href="../pages/medios-pago.html">Medios de Pago</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../pages/colmujer.html">Colección Mujer</a></li>
-                    <li><a href="../pages/colhombre.html">Colección Hombre</a></li>
-                    <li><a href="../pages/accesorios.html">Accesorios</a></li>
-                    <li><a href="../pages/medios-pago.html">Medios de Pago</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
             <div class="menu-bg" id="menu-bg"></div>
         </div>
         <div class="logo-container">
@@ -41,31 +43,19 @@
         <section class="contacto">
             <div class="hero-contacto"></div>
             <h2>Estamos para ayudarte</h2>
-            <h3>Si es tu primera vez en Paparazzi, escribinos para asesortarte</h3>
+            <h3>Si es tu primera vez en Paparazzi, escribinos para asesorarte</h3>
         </section>
         <section>
-            
-            <div class="formulario">
-                <form name="contact" netlify>
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" placeholder="" name="nombre">
-                    </div>
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" placeholder="" name="apellido">
-                    </div>
-                    <div>
-                        <label for="correo">Correo</label>
-                        <input type="email" class="form__input" placeholder="" name="_replyto">
-                    </div>
-                    <div>
-                        <textarea name="message" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input class="form-boton" type="submit" value="Enviar">
-                    </div>
-                </form>
+            <div class="container-formulario">
+                    <form action="">
+                        <h2 class="titulo">Contactános</h2>
+                        <h3 class="subtitulo">Dejanos tu consulta aquí.</h3>
+                        <input type="text" name="nombre" placeholder="Nombre" />
+                        <input type="text" name="apellido" placeholder="Apellido" />
+                        <input type="email" name="e-mail" placeholder="E-mail" />
+                        <textarea name="text" id="" rows="8" placeholder="Tu consulta"></textarea>
+                        <button class="form-boton">Enviar!</button>
+                    </form>
             </div>
         </section>
     </main>
@@ -85,10 +75,14 @@
             <div class="redes-sociales">
                 <h3>Redes Sociales</h3>
                 <div class="redes-ico">
-                    <a href="https://www.facebook.com/" target="_blank"><img src="../media/img/facebook.png" alt="facebook" class="footerico"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="../media/img/instagram.png" alt="instagram" class="footerico"></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="../media/img/youtube.png" alt="youtube" class="footerico"></a>
-                    <a href="https://web.whatsapp.com/" target="_blank"><img src="../media/img/whatsapp.png" alt="whatsapp" class="footerico"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../media/img/facebook.png"
+                            alt="facebook" class="footerico"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../media/img/instagram.png"
+                            alt="instagram" class="footerico"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="../media/img/youtube.png" alt="youtube"
+                            class="footerico"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="../media/img/whatsapp.png"
+                            alt="whatsapp" class="footerico"></a>
                 </div>
             </div>
             <div class="medios-pago">
@@ -114,7 +108,7 @@
             </div>
             <p>© Paparazzi 2023. Todos los derechos reservados.</p>
         </div>
-
     </footer>
 </body>
+
 </html>
