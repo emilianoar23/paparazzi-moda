@@ -280,9 +280,11 @@ iframe {
 
 .colecciones a {
     text-decoration: none;
+    text-align: center;
     font-size: 7em;
     margin: 40px;
     color: #242424;
+    transition: transform 0.3s ease;
 }
 
 .colecciones a:hover {
@@ -429,11 +431,9 @@ iframe {
 }
 
 .mpago h2 {
+    text-align: center;
     margin: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .secciones-mpago {
@@ -617,21 +617,10 @@ iframe {
 }
 
 @keyframes cambioFondo {
-    60% {
-        background-color: #FFFAF4;
-    }
-
-    60% {
-        background-color: #f8ede3;
-    }
-
-    60% {
-        background-color: #dfd3c3;
-    }
-
-    60% {
-        background-color: #85586f;
-    }
+    60% {background-color: #FFFAF4;}
+    60% {background-color: #f8ede3;}
+    60% {background-color: #dfd3c3;}
+    60% {background-color: #85586f;}
 }
 
 .texto-a {
@@ -890,7 +879,6 @@ iframe {
 }
 
 .mpago h2 {
-    text-align: center;
     margin: 30px 30px;
     font-size: 2rem;
 }
@@ -961,7 +949,7 @@ footer {
 }
 
 .canales-contacto {
-    margin: 30px auto 30px;
+    margin: 30px auto;
 }
 
 .redes-sociales {
@@ -975,7 +963,7 @@ footer {
 }
 
 .derechos {
-    margin: 30px auto 30px;
+    margin: 30px auto;
 }
 
 .derechos p {
@@ -987,7 +975,7 @@ footer {
 /*---------------- TABLETS -----------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-/*------------------ HOME ------------------*/
+/*----------------- HEADER -----------------*/
 .logo-container {
     margin-left: 30px;
 }
@@ -1000,7 +988,7 @@ footer {
     font-size: 2rem;
 }
 
-
+/*------------------ HOME ------------------*/
 .home-hsection {
     margin: auto;
 }
@@ -1048,6 +1036,46 @@ iframe {
 .accesorios img {
     width: 90vw;
     margin: 25px auto 0px;
+}
+
+/*------------- MEDIOS DE PAGO -------------*/
+.hero-mpago {
+    width: auto;
+    height: 45vh;
+}
+
+.mpago h2 {
+    margin: 40px 20px;
+    font-size: 2.5rem;
+}
+
+.mpago-container {
+    margin: 10px;
+}
+
+.container-chico {
+    min-width: 25vw;
+    margin: auto;
+}
+
+.container-grande {
+    min-width: 30vw;
+    margin: 20px;
+}
+
+/*---------------- CONTACTO ----------------*/
+.hero-contacto {
+    width: auto;
+    height: 45vh;
+}
+
+.contacto h2 {
+    font-size: 3.5rem;
+}
+
+.container-formulario {
+    width: auto;
+    margin: 50px 30px;
 }
 
 
