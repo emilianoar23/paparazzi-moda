@@ -291,6 +291,10 @@ iframe {
     transform: scale(1.15);
 }
 
+.colecciones img {
+    width: 45vw;
+}
+
 .coleccion-mujer {
     display: flex;
     align-items: center;
@@ -300,7 +304,6 @@ iframe {
 }
 
 .coleccion-mujer img {
-    width: 50rem;
     margin-right: 60px;
 }
 
@@ -312,7 +315,6 @@ iframe {
 }
 
 .coleccion-hombre img {
-    width: 50rem;
     margin-left: 60px;
 }
 
@@ -325,7 +327,6 @@ iframe {
 }
 
 .accesorios img {
-    width: 50rem;
     margin-right: 60px;
 }
 
@@ -838,7 +839,7 @@ iframe {
 }
 
 .colecciones a {
-    font-size: 3em;
+    font-size: 3rem;
     margin: 35px;
 }
 
@@ -1078,12 +1079,95 @@ iframe {
     margin: 50px 30px;
 }
 
-
 }
 
+/*---------------- TABLETS -----------------*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+/*------------------ HOME ------------------*/
+iframe {
+    width: 100%;
+    height: 60vh;
+    border: none;
+    margin: 60px 0px;
+}
+
+.colecciones a {
+    font-size: 3em;
+    margin: 20px;
+}
+
+.colecciones img {
+    width: 60%;
+}
+
+.coleccion-mujer {
+    padding: 60px;
+}
+
+.coleccion-hombre {
+    padding: 60px;
+}
+
+.accesorios {
+    padding: 60px;
+}
+/*------------- MEDIOS DE PAGO -------------*/
+.hero-mpago {
+    height: 60vh;
+}
+
+.mpago-container {
+    margin: 15px;
+}
+
+.container-chico {
+    min-width: 20vw;
+    margin: 25px;
+}
+
+.container-grande {
+    min-width: 30vw;
+    margin: 25px;
+}
+
+/*---------------- CONTACTO ----------------*/
+.hero-contacto {
+    height: 60vh;
+}
+
+.contacto h2 {
+    font-size: 3.5rem;
+    margin: 40px;
+}
+
+.contacto h3 {
+    font-size: 3rem;
+    margin: 20px;
+}
+
+}
 /*------------- PC ESCRITORIO --------------*/
-@media only screen and (min-width: 768px) and (max-width: 1023px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+/*------------------ HOME ------------------*/
+iframe {
+    border: none;
+    margin: 40px 0px;
+}
 
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {}
+.colecciones a {
+    font-size: 4em;
+    margin: 20px;
+}
 
-@media only screen and (min-width: 1440px) and (max-width: 1919px) {}
+/*------------- MEDIOS DE PAGO -------------*/
+.hero-mpago {
+    height: 60vh;
+}
+
+/*---------------- CONTACTO ----------------*/
+.hero-contacto {
+    height: 60vh;
+}
+
+}
