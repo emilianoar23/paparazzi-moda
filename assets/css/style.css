@@ -219,11 +219,11 @@ iframe {
 }
 
 /*------------- COLECCION MUJER ------------*/
-.container {
-    height: 70vh;
-    width: 100%;
-    margin: 0px auto 40px;
-    padding: 40px;
+.container-mujer {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin: 0px auto 120px;
     background-image: url(../media/img/colmujer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,7 +235,8 @@ iframe {
     background-color: rgba(255, 250, 244, 0.4);
     border: 1.5px solid black;
     width: 50vw;
-    margin: 10% auto;
+    height: 30vh;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,18 +254,23 @@ iframe {
 
 .banner h2 {
     font-size: 4em;
-    font-weight: 600;
+    font-weight: 200;
     text-align: center;
-    color: black;
-    text-shadow: -6px 0 whitesmoke;
+    color: #242424;
+    text-shadow: 2px 0 rgba(245, 245, 245, 0.536);
 }
 
 .catalogo {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
-    justify-items: center;
-    margin-bottom: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 6rem;
+    margin: 0 auto 40px;
+    max-width: 1440px;
+}
+
+.cont2 img{
+    display: flex;
+    align-self: center;
 }
 
 .prod {
@@ -281,8 +287,21 @@ iframe {
 }
 
 .descripcion {
-    padding: 15px;
-    bottom: 10px;
+    width: 350px;
+    margin: 20px;
+}
+
+/*---------------COLECCIÓN HOMBRE---------*/
+.container-hombre {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin: 0px auto 120px;
+    background-image: url(../media/img/colhombre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /*------------- MEDIOS DE PAGO -------------*/
@@ -358,90 +377,6 @@ iframe {
     margin: 5px;
     border-radius: 10px;
 }
-
-/*---------------COLECCIÓN HOMBRE---------*/
-.container-h {
-    margin: auto;
-    padding: 40px;
-    max-width: 1920vw;
-    display: grid;
-    grid-template-rows: 400px 2fr;
-    gap: 40px;
-}
-
-.container1-h {
-    width: 100%;
-    background-image: url(../media/img/colhombre.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid black;
-}
-
-.banner-h {
-    position: relative;
-    background-color: #FFFAF4;
-    border: 2px solid black;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 10%;
-    left: 25%;
-    animation-name: cambioFondo;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-.texto-h {
-    display: flex;
-    font-size: 80px;
-    font-weight: 600;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    bottom: 25%;
-    left: 28%;
-    color: black;
-    text-shadow: -6px 0 whitesmoke;
-}
-
-.container2-h {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 30%);
-    gap: 60px;
-}
-
-.prod-h {
-    width: auto;
-    height: auto;
-    min-width: 5%;
-    max-width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    transition: all 300ms;
-    margin: 0px 15px;
-}
-
-.prod-h:hover {
-    transform: scale(1.10);
-}
-
-#img1-h,
-#img2-h,
-#img5-h,
-#img7-h,
-#img8-h,
-#img9-h {
-    width: 350px;
-    height: 500px;
-}
-
-.descripcion-h {
-    padding: 15px;
-    bottom: 10px;
-}
-
 /*-----------------ACCESORIOS---------------*/
 .container-a {
     margin: 30px;
