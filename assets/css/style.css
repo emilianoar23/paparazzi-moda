@@ -158,118 +158,6 @@ button img {
     transform: translate(-60%, -30%);
 }
 
-/*----------------- FOOTER -----------------*/
-footer {
-    background-color: #85586F;
-}
-
-.footer-secciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 30px;
-}
-
-.footer-secciones h3 {
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.canales-contacto {
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    font-weight: bold;
-}
-
-.telefono img {
-    margin-right: 10px;
-}
-
-.telefono {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-
-.correo {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-
-.correo img {
-    margin-right: 10px;
-}
-
-.redes-sociales {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-}
-
-.redes-ico {
-    display: flex;
-    align-items: stretch;
-    margin-top: 10px;
-}
-
-.footerico {
-    width: 40px;
-    margin: 10px 10px;
-}
-
-.medios-pago {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-}
-
-.medios-ico {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: stretch;
-}
-
-.pago-ico {
-    width: 2.5em;
-    margin: 10px;
-    border-radius: 3px;
-}
-
-hr {
-    border: none;
-    border-top: 1.5px solid #3c3c3c;
-    margin: 0em 4em;
-}
-
-.derechos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px;
-    font-size: 1.1em;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-logo img {
-    width: 30px;
-    margin: 10px;
-}
-
 /*------------------ HOME ------------------*/
 iframe {
     width: 100%;
@@ -332,65 +220,51 @@ iframe {
 
 /*------------- COLECCION MUJER ------------*/
 .container {
-    margin: auto;
+    height: 70vh;
+    width: 100%;
+    margin: 0px auto 40px;
     padding: 40px;
-    display: grid;
-    grid-template-rows: 400px 2fr;
-    gap: 40px;
-}
-
-.container1 {
-    width: 100%;
     background-image: url(../media/img/colmujer.jpg);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border: 3px solid black;
 }
 
 .banner {
-    position: relative;
-    background-color: #FFFAF4;
-    border: 2px solid black;
+    background-color: rgba(255, 250, 244, 0.4);
+    border: 1.5px solid black;
     width: 50vw;
+    margin: 10% auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 10%;
-    left: 25%;
     animation-name: cambioFondo;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
+@keyframes cambioFondo {
+    60% {background-color: rgba(255, 250, 244, 0.8);}
+    60% {background-color: rgba(248, 237, 227, 0.8);}
+    60% {background-color: rgba(223, 211, 195, 0.8);}
+    60% {background-color: rgba(133, 88, 111, 0.4);}
+}
+
 .banner h2 {
-    display: flex;
     font-size: 4em;
     font-weight: 600;
     text-align: center;
-    justify-content: center;
     color: black;
     text-shadow: -6px 0 whitesmoke;
 }
 
-@keyframes cambioFondo {
-    60% {background-color: #FFFAF4;}
-    60% {background-color: #f8ede3;}
-    60% {background-color: #dfd3c3;}
-    60% {background-color: #85586f;}
-}
-
-.container2 {
-    max-width: 100%;
+.catalogo {
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 30%);
     gap: 60px;
+    justify-items: center;
+    margin-bottom: 40px;
 }
 
 .prod {
@@ -399,18 +273,11 @@ iframe {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition: all 300ms;
     margin: 0px 15px;
+    border: 1px solid;
 }
 
 .prod:hover {
-    transform: scale(1.10);
-}
-
-#img2,
-#img6,
-#img8,
-#img9 {
-    width: 350px;
-    height: 500px;
+    transform: scale(1.06);
 }
 
 .descripcion {
@@ -525,13 +392,6 @@ iframe {
     animation-iteration-count: infinite;
 }
 
-@keyframes cambioFondo {
-    60% {background-color: #FFFAF4;}
-    60% {background-color: #f8ede3;}
-    60% {background-color: #dfd3c3;}
-    60% {background-color: #85586f;}
-}
-
 .texto-h {
     display: flex;
     font-size: 80px;
@@ -617,12 +477,6 @@ iframe {
     animation-iteration-count: infinite;
 }
 
-@keyframes cambioFondo {
-    60% {background-color: #FFFAF4;}
-    60% {background-color: #f8ede3;}
-    60% {background-color: #dfd3c3;}
-    60% {background-color: #85586f;}
-}
 
 .texto-a {
     display: flex;
@@ -776,6 +630,118 @@ textarea {
 .form-boton:hover {
     background-color: #85586f;
     box-shadow: 0px 0px 10px #85586f;
+}
+
+/*----------------- FOOTER -----------------*/
+footer {
+    background-color: #85586F;
+}
+
+.footer-secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 30px;
+}
+
+.footer-secciones h3 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.canales-contacto {
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.telefono img {
+    margin-right: 10px;
+}
+
+.telefono {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.correo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.correo img {
+    margin-right: 10px;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.redes-ico {
+    display: flex;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.footerico {
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.medios-pago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.medios-ico {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: stretch;
+}
+
+.pago-ico {
+    width: 2.5em;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+hr {
+    border: none;
+    border-top: 1.5px solid #3c3c3c;
+    margin: 0em 4em;
+}
+
+.derechos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 30px;
+    margin: 10px;
 }
 
 /*------------- MEDIA QUERIES --------------*/
