@@ -387,7 +387,10 @@ iframe {
 .grid-card p {
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10px;
+}
+
+.grid-card .shopping-ico {
+    margin: 0;
 }
 
 /*------------- MEDIOS DE PAGO -------------*/
