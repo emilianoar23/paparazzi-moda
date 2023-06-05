@@ -262,15 +262,29 @@ iframe {
 
 .catalogo {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 6rem;
-    margin: 0 auto 40px;
-    max-width: 1440px;
+    gap: 3rem;
+    margin: 40px;
 }
 
-.cont2 img{
-    display: flex;
-    align-self: center;
+.cont2 {
+    width: 350px;
+}
+
+.cont2 h4 {
+    font-size: 1.2rem;
+    margin: 15px 15px 5px;
+}
+
+.cont2 p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.shopping-ico {
+    margin-left: 15px;
 }
 
 .prod {
@@ -286,10 +300,6 @@ iframe {
     transform: scale(1.06);
 }
 
-.descripcion {
-    width: 350px;
-    margin: 20px;
-}
 
 /*---------------COLECCIÓN HOMBRE---------*/
 .container-hombre {
@@ -316,17 +326,35 @@ iframe {
     background-attachment: fixed;
 }
 
+.accesorios-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .catalogo-accesorios {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 0.5rem;
-    margin: 0 auto 10px;
+    gap: 1rem;
+    justify-items: center;
+    align-items: start;
+    text-align: center;
     max-width: 1620px;
 }
 
-.categorias {
+  .grid-card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+  .categorias {
     grid-column: 1 / -1;
     background-color: #ffffff4e;
+    width: 100%;
     margin: 10px;
     border: 1px solid;
     border-radius: 5px;
@@ -339,27 +367,28 @@ iframe {
 }
 
 .catalogo-img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
+    width: 80%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     transition: all 300ms;
     margin: 0 auto;
     border: 1px solid;
+    justify-self: center;
 }
 
 .catalogo-img:hover {
     transform: scale(1.06);
 }
 
-.grid-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.grid-card h4 {
+    font-size: 1rem;
+    margin: 15px 10px 5px;
 }
 
+.grid-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
 
 /*------------- MEDIOS DE PAGO -------------*/
 .hero-mpago {
