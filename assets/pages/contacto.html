@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../media/img/gancho-de-ropa.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../src/menu.js"></script>
     <title>Paparazzi</title>
 </head>
 
@@ -47,17 +46,24 @@
         </section>
         <section>
             <div class="container-formulario">
-                    <form action="">
-                        <h2 class="titulo">Contactános</h2>
-                        <h3 class="subtitulo">Dejanos tu consulta aquí.</h3>
-                        <input type="text" name="nombre" placeholder="Nombre" />
-                        <input type="text" name="apellido" placeholder="Apellido" />
-                        <input type="email" name="e-mail" placeholder="E-mail" />
-                        <textarea name="text" id="" rows="8" placeholder="Tu consulta"></textarea>
-                        <button class="form-boton">Enviar!</button>
-                    </form>
+              <form action="" id="formulario">
+                <h2 class="titulo">Contáctanos</h2>
+                <h3 class="subtitulo">Déjanos tu consulta aquí.</h3>
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre" />
+                <input type="text" name="apellido" placeholder="Apellido" id="apellido" />
+                <input type="email" name="email" placeholder="E-mail" id="email" />
+                <textarea name="consulta" rows="8" placeholder="Tu consulta" id="consulta"></textarea>
+                <button class="form-boton" type="submit">Enviar!</button>
+              </form>
             </div>
-        </section>
+          </section>
+        
+          <div id="modal" class="modal">
+            <div class="modal-contenido">
+              <span class="modal-cerrar">&times;</span>
+              <p id="modal-mensaje"></p>
+            </div>
+          </div>
     </main>
     <footer>
         <div class="footer-secciones">
@@ -110,5 +116,7 @@
         </div>
     </footer>
 </body>
+<script src="../src/menu.js"></script>
+<script src="../src/form.js"></script>
 
 </html>
