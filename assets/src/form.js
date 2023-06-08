@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let consulta = document.getElementById('consulta').value.trim();
 
         if (nombre === '' || apellido === '' || email === '' || consulta === '') {
-            mostrarModal('Por favor, completa todos los campos.');
+            mostrarModal('Por favor, completa todos los campos!');
         } else {
             mostrarModal('¡Formulario enviado!');
         }

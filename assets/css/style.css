@@ -263,6 +263,7 @@ iframe {
 .catalogo {
     display: grid;
     justify-items: center;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
     margin: 40px;
@@ -579,10 +580,11 @@ textarea {
     background-color: #FBD46D;
     margin: 15% auto;
     padding: 20px;
-    border: 2px solid #694658b1;
-    width: 30%;
+    border: 3px solid #694658;
+    max-width: 40%;
     height: auto;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: 600;
   }
   
   .modal-cerrar {
@@ -868,6 +870,12 @@ iframe {
     font-size: 1.1rem;
 }
 
+.modal-contenido {
+    max-width: 80%;
+    font-size: 1em;
+    font-weight: 600;
+}
+
 /*----------------- FOOTER -----------------*/
 footer {
     display: flex;
@@ -904,9 +912,45 @@ footer {
 .derechos p {
     text-align: center;
 }
-
+/*------------- COLECCION MUJER ------------*/
+.container-mujer {
+    width: auto;
+    height: 35vh;
 }
 
+.banner {
+    width: 80%;
+    height: 20vh;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin: 5px;
+}
+
+.catalogo {
+    gap: 1rem;
+    margin: 10px auto 30px;
+}
+
+.cont2 {
+    width: 250px;
+    margin: 0;
+}
+
+.prod {
+    width: 250px;
+    height: auto;
+    margin: 0
+}
+
+/*---------------COLECCIÓN HOMBRE---------*/
+.container-hombre {
+    width: auto;
+    height: 35vh;
+}
+
+}
 /*---------------- TABLETS -----------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -1080,6 +1124,12 @@ iframe {
     margin: 20px;
 }
 
+.modal-contenido {
+    max-width: 65%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
 }
 /*------------- PC ESCRITORIO --------------*/
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -1102,6 +1152,12 @@ iframe {
 /*---------------- CONTACTO ----------------*/
 .hero-contacto {
     height: 60vh;
+}
+
+.modal-contenido {
+    max-width: 50%;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 }
