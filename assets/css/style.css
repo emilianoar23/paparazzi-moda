@@ -300,6 +300,14 @@ iframe {
     transform: scale(1.06);
 }
 
+/*-------Sweet Alert (alertas colecciones)---*/
+.swal-overlay{
+    background-color: lightyellow;
+}
+
+.swal-modal{
+    border: 3px solid whitesmoke;
+}
 
 /*---------------COLECCIÓN HOMBRE---------*/
 .container-hombre {
