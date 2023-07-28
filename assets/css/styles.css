@@ -14,3 +14,93 @@ body {
 
 ::selection {
   background-color: #FBD46D; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8EDE3;
+  /*------------------- MENU ------------------*/ }
+  header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    header .logo-container img {
+      width: 70px;
+      margin: 20px; }
+    header .logo-container h1 {
+      font-size: 2.5em; }
+  header button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold; }
+    header button img {
+      width: 35px;
+      margin: 10px; }
+  header #menu {
+    z-index: 2; }
+    header #menu #menu-bar {
+      width: 40px;
+      height: 40px;
+      margin: 30px 20px 20px 20px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      header #menu #menu-bar .bar {
+        height: 5px;
+        width: 100%;
+        background-color: #85586F;
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease; }
+      header #menu #menu-bar #bar1 {
+        transform: translateY(-4px); }
+      header #menu #menu-bar #bar3 {
+        transform: translateY(4px); }
+    header #menu.change #menu-bar .bar {
+      background-color: white; }
+    header #menu.change #bar1 {
+      transform: translateY(4px) rotateZ(-45deg); }
+    header #menu.change #bar2 {
+      opacity: 0; }
+    header #menu.change #bar3 {
+      transform: translateY(-6px) rotateZ(45deg); }
+    header #menu.change .nav {
+      display: block; }
+    header #menu.change .menu-bg {
+      width: 520px;
+      height: 460px;
+      transform: translate(-60%, -30%); }
+    header #menu .nav {
+      display: none;
+      position: absolute;
+      top: 80px;
+      left: 20px;
+      background-color: #85586F;
+      padding: 10px;
+      border-radius: 5px; }
+      header #menu .nav ul {
+        padding: 0; }
+        header #menu .nav ul li {
+          list-style: none;
+          padding: 12px 0; }
+          header #menu .nav ul li a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none; }
+            header #menu .nav ul li a:hover {
+              font-weight: bold;
+              color: #533846; }
+  header .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 120px 0 20px 20px;
+    background: radial-gradient(circle, #85586F, #85586F);
+    border-radius: 50%;
+    transition: 0.3s ease; }
