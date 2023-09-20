@@ -1,31 +1,75 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F8EDE3;
-    .logo-container {
-        display: flex;
-        align-items: center;
-        img {
-            width: 70px;
-            margin-right: 10px;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin: 0;
+    position: fixed;
+    top: 0px;
+    max-height: 70px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 17px;
+    background: none;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.6s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 6px;
+    .header-container {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 2%;
+        .logo {
+            float: left;
+            display: flex;
+            align-items: center;
+            line-height: 1;
+            margin-bottom: 10px;
+            color: $font-white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 12px;
+            &:hover {
+                color: $dt-color1;
+            }
+            img {
+                width: 25px;
+                margin-right: 8px;
+            }
         }
     }
-    button {
-        border: none;
-        background: none;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        font-size: 1.2rem;
-        font-weight: bold;
-        img {
-            width: 35px;
-            margin: 10px;
+    nav {
+        ul {
+            li {
+                position: relative;
+                a {
+                    color: $font-white;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: 12px;
+                    &:hover {
+                        color: $dt-color1;
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 100%;
+                            height: 6px;
+                            background-color: $dt-color1;
+                            position: absolute;
+                            bottom: -5px;
+                            left: 0;
+                            transition: all 0.3s ease;
+                        }
+                    }
+                }
+            }
         }
     }
+}
+
+.sticky {
+    background-color: $bg-hdr-ftr;
+    opacity: 1;
+    top: 0px;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #9c8416;
 }

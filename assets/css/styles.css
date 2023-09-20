@@ -41,75 +41,25 @@ header {
       width: 35px;
       margin: 10px; }
 
-.menu-container #menu {
-  z-index: 2; }
-  .menu-container #menu #menu-bar {
-    width: 40px;
-    height: 40px;
-    margin: 30px 20px 20px 20px;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-    .menu-container #menu #menu-bar .bar {
-      height: 5px;
-      width: 100%;
-      background-color: #85586F;
-      display: block;
-      border-radius: 5px;
-      transition: 0.3s ease; }
-    .menu-container #menu #menu-bar #bar1 {
-      transform: translateY(-4px); }
-    .menu-container #menu #menu-bar #bar3 {
-      transform: translateY(4px); }
-  .menu-container #menu .nav {
-    transition: 0.3s ease;
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #85586F;
-    padding: 10px 0; }
-    .menu-container #menu .nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0; }
-      .menu-container #menu .nav ul li {
-        text-align: center; }
-        .menu-container #menu .nav ul li a {
-          color: white;
-          font-size: 20px;
-          text-decoration: none;
-          display: block;
-          padding: 10px; }
-          .menu-container #menu .nav ul li a:hover {
-            font-weight: bold;
-            color: #533846; }
+.menu-toggle {
+  display: block;
+  padding: 15px;
+  cursor: pointer; }
+  .menu-toggle .icon {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px; }
 
-.menu-container .menu-bg {
-  z-index: 1;
-  width: 0;
-  height: 0;
-  margin: 110px 0 0 20px;
-  background: radial-gradient(circle, #85586F, #85586F);
-  border-radius: 50%;
-  transition: 0.3s ease;
-  position: absolute; }
-
-.menu-container .change {
-  display: block; }
-  .menu-container .change .bar {
-    background-color: white; }
-  .menu-container .change #bar1 {
-    transform: translateY(0) rotateZ(-45deg); }
-  .menu-container .change #bar2 {
-    opacity: 0; }
-  .menu-container .change #bar3 {
-    transform: translateY(0) rotateZ(45deg); }
-  .menu-container .change ~ .nav {
-    display: block; }
-
-.menu-container .change-bg {
-  width: 520px;
-  height: 460px;
-  transform: translate(-60%, -30%); }
+.menu {
+  display: none; }
+  .menu ul {
+    list-style: none;
+    padding: 0; }
+    .menu ul li {
+      margin-bottom: 10px; }
+      .menu ul li a {
+        text-decoration: none;
+        color: #333; }
+        .menu ul li a:hover {
+          color: #666; }
