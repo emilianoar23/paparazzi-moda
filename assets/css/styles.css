@@ -16,50 +16,112 @@ body {
   background-color: #FBD46D; }
 
 header {
+  position: fixed;
+  top: 0px;
+  max-height: 70px;
+  z-index: 999;
+  width: 100%;
+  padding-top: 17px;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.6s;
+  opacity: 0;
+  top: -100px;
+  padding-bottom: 6px; }
+  header .header-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%; }
+    header .header-container .logo {
+      float: left;
+      display: flex;
+      align-items: center;
+      line-height: 1;
+      margin-bottom: 10px;
+      color: #eeeeee;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 12px; }
+      header .header-container .logo:hover {
+        color: #9c8416; }
+      header .header-container .logo img {
+        width: 25px;
+        margin-right: 8px; }
+  header nav ul li {
+    position: relative; }
+    header nav ul li a {
+      color: #eeeeee;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 12px; }
+      header nav ul li a:hover {
+        color: #9c8416; }
+        header nav ul li a:hover::after {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 6px;
+          background-color: #9c8416;
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+          transition: all 0.3s ease; }
+
+.sticky {
+  background-color: #334434;
+  opacity: 1;
+  top: 0px;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #9c8416; }
+
+iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+  margin: 80px 0px; }
+
+.colecciones a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 7em;
+  margin: 40px;
+  color: #242424;
+  transition: transform 0.3s ease; }
+
+.colecciones a:hover {
+  transform: scale(1.15); }
+
+.colecciones img {
+  width: 45vw; }
+
+.coleccion-mujer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #F8EDE3; }
-  header .logo-container {
-    display: flex;
-    align-items: center; }
-    header .logo-container img {
-      width: 70px;
-      margin-right: 10px; }
-    header .logo-container h1 {
-      font-size: 2.5em;
-      margin: 0; }
-  header button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: bold; }
-    header button img {
-      width: 35px;
-      margin: 10px; }
+  justify-content: space-around;
+  background-color: #3c3c3c25;
+  padding: 80px; }
 
-.menu-toggle {
-  display: block;
-  padding: 15px;
-  cursor: pointer; }
-  .menu-toggle .icon {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin-bottom: 5px; }
+.coleccion-mujer img {
+  margin-right: 60px; }
 
-.menu {
-  display: none; }
-  .menu ul {
-    list-style: none;
-    padding: 0; }
-    .menu ul li {
-      margin-bottom: 10px; }
-      .menu ul li a {
-        text-decoration: none;
-        color: #333; }
-        .menu ul li a:hover {
-          color: #666; }
+.coleccion-hombre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px; }
+
+.coleccion-hombre img {
+  margin-left: 60px; }
+
+.accesorios {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3c3c3c25;
+  padding: 80px; }
+
+.accesorios img {
+  margin-right: 60px; }
