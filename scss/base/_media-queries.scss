@@ -14,13 +14,13 @@
   
     .navbar ul.nav-links {
       position: absolute;
-      top: 18vh; /* change to 8vh */
-      height: 82vh; /* change to 92vh */
+      top: 18vh; 
+      height: 82vh;
       left: 0px;
       justify-content: space-evenly;
       flex-direction: column;
       align-items: center;
-      background-color: rgba(0, 0, 0, 1);
+      background-color: $bg-details2;
       transform: translateX(-100%);
       transition: transform 0.5s ease-in;
       width: 50%;
@@ -75,8 +75,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 82vh; /* change to 92vh */
-    margin-top: -18vh; /* change to -8vh */
+    height: 82vh; 
+    margin-top: -18vh; 
     font-weight: bold;
     font-family: monospace;
     letter-spacing: 1px;
