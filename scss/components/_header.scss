@@ -1,49 +1,51 @@
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+header {
     position: fixed;
     width: 100%;
-    min-height: 18vh;
     background-color: $bg-header;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
-    .logo {
-        color: $font-white;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: bold;
-        letter-spacing: 5px;
-    }
-    .nav-links {
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        text-align: center;
-        width: 45%;
-        list-style-type: none;
-        li {
-            margin: 0 1.2rem;
-            a {
-                font-size: 0.9rem;
-                color: #fff;
-                text-decoration: none;
-                text-transform: uppercase;
+        min-height: 18vh;
+        .logo {
+            color: $font-white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            width: 45%;
+            list-style-type: none;
+            li {
+                margin: 0 1.2rem;
+                a {
+                    font-size: 0.9rem;
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
             }
         }
-    }
-    .menu-icon {
-        display: none;
-        cursor: pointer;
-        flex-grow: 1;
-        margin-left: 25px;
-        span {
-            display: block;
-            border-radius: 15px;
-            width: 25px;
-            height: 5px;
-            background-color: #fff;
-            margin: 5px;
-            transition: all 0.4s ease;
+        .menu-icon {
+            display: none;
+            cursor: pointer;
+            flex-grow: 1;
+            margin-left: 25px;
+            span {
+                display: block;
+                border-radius: 15px;
+                width: 25px;
+                height: 5px;
+                background-color: #fff;
+                margin: 5px;
+                transition: all 0.4s ease;
+            }
         }
     }
 }

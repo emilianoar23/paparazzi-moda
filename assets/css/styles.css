@@ -15,48 +15,49 @@ body {
 ::selection {
   background-color: #FBD46D; }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+header {
   position: fixed;
   width: 100%;
-  min-height: 18vh;
   background-color: #A78295;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4); }
-  .navbar .logo {
-    color: #eeeeee;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 5px; }
-  .navbar .nav-links {
+  header .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    width: 45%;
-    list-style-type: none; }
-    .navbar .nav-links li {
-      margin: 0 1.2rem; }
-      .navbar .nav-links li a {
-        font-size: 0.9rem;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase; }
-  .navbar .menu-icon {
-    display: none;
-    cursor: pointer;
-    flex-grow: 1;
-    margin-left: 25px; }
-    .navbar .menu-icon span {
-      display: block;
-      border-radius: 15px;
-      width: 25px;
-      height: 5px;
-      background-color: #fff;
-      margin: 5px;
-      transition: all 0.4s ease; }
+    min-height: 18vh; }
+    header .navbar .logo {
+      color: #eeeeee;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 5px; }
+    header .navbar .nav-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      width: 45%;
+      list-style-type: none; }
+      header .navbar .nav-links li {
+        margin: 0 1.2rem; }
+        header .navbar .nav-links li a {
+          font-size: 0.9rem;
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase; }
+    header .navbar .menu-icon {
+      display: none;
+      cursor: pointer;
+      flex-grow: 1;
+      margin-left: 25px; }
+      header .navbar .menu-icon span {
+        display: block;
+        border-radius: 15px;
+        width: 25px;
+        height: 5px;
+        background-color: #fff;
+        margin: 5px;
+        transition: all 0.4s ease; }
 
 iframe {
   width: 100%;
