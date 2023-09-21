@@ -19,33 +19,32 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
   min-height: 18vh;
-  /* change to 8vh */
-  background-color: #48a74f;
+  background-color: #A78295;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4); }
-
-.navbar .logo {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 5px; }
-
-.navbar ul.nav-links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 35%;
-  list-style-type: none; }
-
-.navbar ul.nav-links li a {
-  font-size: 15px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: monospace;
-  letter-spacing: 1px; }
+  .navbar .logo {
+    color: #eeeeee;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px; }
+  .navbar .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    list-style-type: none; }
+    .navbar .nav-links li {
+      text-align: unset;
+      margin: 0 20px; }
+      .navbar .nav-links li a {
+        font-size: 0.9rem;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase; }
 
 .navbar .menu-icon {
   display: none;
