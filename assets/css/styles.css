@@ -44,21 +44,19 @@ body {
         color: #fff;
         text-decoration: none;
         text-transform: uppercase; }
-
-.navbar .menu-icon {
-  display: none;
-  cursor: pointer;
-  flex-grow: 1;
-  margin-left: 25px; }
-
-.navbar .menu-icon span {
-  display: block;
-  border-radius: 15px;
-  width: 25px;
-  height: 5px;
-  background-color: #fff;
-  margin: 5px;
-  transition: all 0.4s ease; }
+  .navbar .menu-icon {
+    display: none;
+    cursor: pointer;
+    flex-grow: 1;
+    margin-left: 25px; }
+    .navbar .menu-icon span {
+      display: block;
+      border-radius: 15px;
+      width: 25px;
+      height: 5px;
+      background-color: #fff;
+      margin: 5px;
+      transition: all 0.4s ease; }
 
 iframe {
   width: 100%;

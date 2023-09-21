@@ -13,9 +13,8 @@ const menuSlide = () => {
       if (li.style.animation) {
         li.style.animation = "";
       } else {
-        li.style.animation = `navLinkAnime 0.5s ease forwards ${
-          index / 7 + 0.3
-        }s`;
+        li.style.animation = `navLinkAnime 0.5s ease forwards ${index / 7 + 0.3
+          }s`;
       }
     });
 
