@@ -42,7 +42,7 @@ header {
         margin: 0 1.2rem; }
         header .navbar .nav-links li a {
           font-size: 0.9rem;
-          color: #fff;
+          color: #eeeeee;
           text-decoration: none;
           text-transform: uppercase; }
     header .navbar .menu-icon {
@@ -55,7 +55,7 @@ header {
         border-radius: 15px;
         width: 25px;
         height: 5px;
-        background-color: #fff;
+        background-color: #eeeeee;
         margin: 5px;
         transition: all 0.4s ease; }
 
