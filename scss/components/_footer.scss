@@ -1,0 +1,92 @@
+footer {
+    background-color: $bg-details1;
+    .footer-secciones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: 30px;
+        .canales-contacto {
+            align-items: center;
+            justify-content: center;
+            margin: 15px;
+            font-weight: bold;
+            h3 {
+                text-align: center;
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+            .telefono {
+                display: flex;
+                align-items: center;
+                margin: 10px;
+                img {
+                    margin-right: 10px;
+                }
+            }
+            .correo {
+            img {
+                margin-right: 10px;
+            }
+        }
+        }
+        .redes-sociales {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 15px;
+            .redes-ico {
+                display: flex;
+                align-items: stretch;
+                margin-top: 10px;
+                .footerico {
+                    width: 40px;
+                    margin: 10px 10px;
+                }
+            }
+        }
+        .medios-pago {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 15px;
+            .medios-ico {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                align-items: stretch;
+                .pago-ico {
+                    width: 2.5em;
+                    margin: 10px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+    hr {
+        border: none;
+        border-top: 1.5px solid #3c3c3c;
+        margin: 0em 4em;
+    }
+    .derechos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        font-size: 1.1em;
+        font-weight: bolder;
+        text-align: center;
+        .footer-logo {
+            color: $font-white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 5px;
+            img {
+                width: 30px;
+                margin: 10px;
+            }
+        }
+    }
+}

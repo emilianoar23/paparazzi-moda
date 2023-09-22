@@ -109,6 +109,80 @@ iframe {
 .accesorios img {
   margin-right: 60px; }
 
+footer {
+  background-color: #331D2C; }
+  footer .footer-secciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 30px; }
+    footer .footer-secciones .canales-contacto {
+      align-items: center;
+      justify-content: center;
+      margin: 15px;
+      font-weight: bold; }
+      footer .footer-secciones .canales-contacto h3 {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 10px; }
+      footer .footer-secciones .canales-contacto .telefono {
+        display: flex;
+        align-items: center;
+        margin: 10px; }
+        footer .footer-secciones .canales-contacto .telefono img {
+          margin-right: 10px; }
+      footer .footer-secciones .canales-contacto .correo img {
+        margin-right: 10px; }
+    footer .footer-secciones .redes-sociales {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 15px; }
+      footer .footer-secciones .redes-sociales .redes-ico {
+        display: flex;
+        align-items: stretch;
+        margin-top: 10px; }
+        footer .footer-secciones .redes-sociales .redes-ico .footerico {
+          width: 40px;
+          margin: 10px 10px; }
+    footer .footer-secciones .medios-pago {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 15px; }
+      footer .footer-secciones .medios-pago .medios-ico {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: stretch; }
+        footer .footer-secciones .medios-pago .medios-ico .pago-ico {
+          width: 2.5em;
+          margin: 10px;
+          border-radius: 3px; }
+  footer hr {
+    border: none;
+    border-top: 1.5px solid #3c3c3c;
+    margin: 0em 4em; }
+  footer .derechos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: center; }
+    footer .derechos .footer-logo {
+      color: #eeeeee;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 5px; }
+      footer .derechos .footer-logo img {
+        width: 30px;
+        margin: 10px; }
+
 @media screen and (max-width: 768px) {
   body {
     overflow: hidden; }
