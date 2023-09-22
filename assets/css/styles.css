@@ -110,7 +110,9 @@ iframe {
   margin-right: 60px; }
 
 footer {
-  background-color: #331D2C; }
+  background-color: #331D2C;
+  color: #eeeeee;
+  font-weight: lighter; }
   footer .footer-secciones {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +165,7 @@ footer {
           border-radius: 3px; }
   footer hr {
     border: none;
-    border-top: 1.5px solid #3c3c3c;
+    border-top: 1.5px solid #eeeeee;
     margin: 0em 4em; }
   footer .derechos {
     display: flex;
