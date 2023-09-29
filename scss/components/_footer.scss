@@ -27,6 +27,9 @@ footer {
                 }
             }
             .correo {
+                display: flex;
+                align-items: center;
+                margin: 10px;
                 img {
                     margin-right: 10px;
                 }
@@ -75,20 +78,15 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 30px;
         font-size: 1.1em;
         font-weight: bolder;
         text-align: center;
-        .footer-logo {
-            color: $font-white;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-weight: bold;
-            letter-spacing: 5px;
-            img {
-                width: 30px;
-                margin: 10px;
-            }
+        h3 {
+            margin: 15px;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 10px;
         }
     }
 }
