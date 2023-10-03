@@ -60,11 +60,40 @@ header {
       margin: 5px;
       transition: all 0.4s ease; }
 
-iframe {
+.home-hsection iframe {
   width: 100%;
   height: 700px;
   border: none;
   margin: 80px 0px; }
+
+.colecciones img {
+  width: 45vw; }
+
+.colecciones .coleccion-mujer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3c3c3c25;
+  padding: 80px; }
+  .colecciones .coleccion-mujer img {
+    margin-right: 60px; }
+
+.colecciones .coleccion-hombre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px; }
+  .colecciones .coleccion-hombre img {
+    margin-left: 60px; }
+
+.colecciones .accesorios {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3c3c3c25;
+  padding: 80px; }
+  .colecciones .accesorios img {
+    margin-right: 60px; }
 
 .colecciones a {
   text-decoration: none;
@@ -73,41 +102,8 @@ iframe {
   margin: 40px;
   color: #242424;
   transition: transform 0.3s ease; }
-
-.colecciones a:hover {
-  transform: scale(1.15); }
-
-.colecciones img {
-  width: 45vw; }
-
-.coleccion-mujer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #3c3c3c25;
-  padding: 80px; }
-
-.coleccion-mujer img {
-  margin-right: 60px; }
-
-.coleccion-hombre {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 80px; }
-
-.coleccion-hombre img {
-  margin-left: 60px; }
-
-.accesorios {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #3c3c3c25;
-  padding: 80px; }
-
-.accesorios img {
-  margin-right: 60px; }
+  .colecciones a:hover {
+    transform: scale(1.15); }
 
 footer {
   background-color: #331D2C;
