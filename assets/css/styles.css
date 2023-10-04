@@ -178,6 +178,70 @@ header {
     .catalogo .cont2 .shopping-ico {
       margin-left: 15px; }
 
+.container-hombre {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  margin: 0px auto 120px;
+  background-image: url(../../assets/img/colhombre.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.container-accesorios {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  margin: 0px auto 120px;
+  background-image: url(../../assets/img/accesorios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.accesorios-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px; }
+  .accesorios-sec .catalogo-accesorios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    align-items: start;
+    text-align: center;
+    max-width: 1620px; }
+  .accesorios-sec .categorias {
+    grid-column: 1 / -1;
+    background-color: #ffffff4e;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px; }
+  .accesorios-sec .grid-card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px; }
+    .accesorios-sec .grid-card .catalogo-img {
+      width: 80%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      transition: all 300ms;
+      margin: 0 auto;
+      border: 1px solid;
+      justify-self: center; }
+      .accesorios-sec .grid-card .catalogo-img:hover {
+        transform: scale(1.06); }
+    .accesorios-sec .grid-card h4 {
+      font-size: 1rem;
+      margin: 15px 10px 5px; }
+    .accesorios-sec .grid-card p {
+      font-size: 1rem;
+      font-weight: bold; }
+
 footer {
   background-color: #331D2C;
   color: #eeeeee;
