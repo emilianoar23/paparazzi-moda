@@ -105,6 +105,12 @@ header {
   .colecciones a:hover {
     transform: scale(1.15); }
 
+.swal-overlay {
+  background-color: lightyellow; }
+
+.swal-modal {
+  border: 3px solid whitesmoke; }
+
 .container-mujer {
   display: flex;
   align-items: center;
