@@ -13,7 +13,7 @@ body {
   margin: 0 auto; }
 
 ::selection {
-  background-color: #FBD46D; }
+  background-color: #3f2e3e65; }
 
 header {
   position: fixed;
@@ -188,6 +188,34 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+  .container-hombre .banner {
+    background-color: rgba(255, 250, 244, 0.4);
+    border: 1.5px solid black;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: cambioFondo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; }
+    .container-hombre .banner h2 {
+      font-size: 4em;
+      font-weight: 300;
+      text-align: center;
+      color: #242424;
+      text-shadow: 2px 0 rgba(245, 245, 245, 0.536); }
+
+@keyframes cambioFondo {
+  60% {
+    background-color: rgba(255, 250, 244, 0.8); }
+  60% {
+    background-color: rgba(248, 237, 227, 0.8); }
+  60% {
+    background-color: rgba(223, 211, 195, 0.8); }
+  60% {
+    background-color: rgba(133, 88, 111, 0.4); } }
 
 .container-accesorios {
   display: flex;
@@ -199,6 +227,34 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+  .container-accesorios .banner {
+    background-color: rgba(255, 250, 244, 0.4);
+    border: 1.5px solid black;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: cambioFondo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite; }
+    .container-accesorios .banner h2 {
+      font-size: 4em;
+      font-weight: 300;
+      text-align: center;
+      color: #242424;
+      text-shadow: 2px 0 rgba(245, 245, 245, 0.536); }
+
+@keyframes cambioFondo {
+  60% {
+    background-color: rgba(255, 250, 244, 0.8); }
+  60% {
+    background-color: rgba(248, 237, 227, 0.8); }
+  60% {
+    background-color: rgba(223, 211, 195, 0.8); }
+  60% {
+    background-color: rgba(133, 88, 111, 0.4); } }
 
 .accesorios-sec {
   display: flex;
