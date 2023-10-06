@@ -1,0 +1,66 @@
+.mpago {
+    .hero-mpago {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        background-image: url(../../assets/img/hero-mpago.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    h2 {
+        text-align: center;
+        margin: 70px;
+        font-size: 4rem;
+    }
+    .secciones-mpago {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0px 130px;
+        .mpago-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .container-chico {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 20vh;
+                width: 15vw;
+                margin: 30px;
+                background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+                border-radius: 20px;
+                p {
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                }
+                img {
+                    max-width: 50%;
+                    height: auto;
+                    margin: 5px;
+                }
+            }
+            .container-grande {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 20vh;
+                width: 60vw;
+                margin: 30px;
+                background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+                border-radius: 20px;
+                img {
+                    max-width: 20%;
+                    height: auto;
+                    margin: 5px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
