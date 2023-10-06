@@ -16,7 +16,6 @@ body {
   background-color: #3f2e3e65; }
 
 header {
-  position: fixed;
   width: 100%;
   height: 15vh;
   background-color: #A78295;
@@ -107,6 +106,8 @@ header {
 
 .inicio {
   cursor: pointer; }
+  .inicio img {
+    width: 35px; }
 
 #scrollToTop {
   display: none;
@@ -117,10 +118,9 @@ header {
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px; }
-
-#scrollToTop:hover {
-  background: #966d82; }
+  border-radius: 100%; }
+  #scrollToTop:hover {
+    background: #966d82; }
 
 .swal-overlay {
   background-color: lightyellow; }

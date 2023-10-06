@@ -54,8 +54,12 @@
 
 .inicio {
     cursor: pointer;
-  }
-  #scrollToTop {
+    img {
+        width: 35px;
+    }
+}
+
+#scrollToTop {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -64,11 +68,11 @@
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-  }
-  #scrollToTop:hover {
-    background: $bg-details3;
-  }
+    border-radius: 100%;
+    &:hover {
+        background: $bg-details3;
+    }
+}
 
 .swal-overlay{
     background-color: lightyellow;
