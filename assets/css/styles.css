@@ -600,21 +600,21 @@ footer {
   .mpago .hero-mpago {
     width: auto;
     height: 35vh; }
-    .mpago .hero-mpago h2 {
-      margin: 30px 30px;
-      font-size: 2rem; }
-    .mpago .hero-mpago .mpago-container {
-      flex-direction: column; }
-    .mpago .hero-mpago .container-chico {
-      height: 15vh;
-      width: 80vw;
-      margin: 20px auto;
-      border-radius: 15px; }
-    .mpago .hero-mpago .container-grande {
-      height: 15vh;
-      width: 80vw;
-      margin: 20px auto;
-      border-radius: 15px; } }
+  .mpago h2 {
+    margin: 30px 30px;
+    font-size: 2rem; }
+  .mpago .mpago-container {
+    flex-direction: column; }
+  .mpago .container-chico {
+    height: 15vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 15px; }
+  .mpago .container-grande {
+    height: 15vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 15px; } }
 
 @media screen and (max-width: 768px) {
   body {

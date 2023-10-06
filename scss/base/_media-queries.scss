@@ -51,29 +51,29 @@
     .hero-mpago {
       width: auto;
       height: 35vh;
+    }
 
-      h2 {
-        margin: 30px 30px;
-        font-size: 2rem;
-      }
+    h2 {
+      margin: 30px 30px;
+      font-size: 2rem;
+    }
 
-      .mpago-container {
-        flex-direction: column;
-      }
+    .mpago-container {
+      flex-direction: column;
+    }
 
-      .container-chico {
-        height: 15vh;
-        width: 80vw;
-        margin: 20px auto;
-        border-radius: 15px;
-      }
+    .container-chico {
+      height: 15vh;
+      width: 80vw;
+      margin: 20px auto;
+      border-radius: 15px;
+    }
 
-      .container-grande {
-        height: 15vh;
-        width: 80vw;
-        margin: 20px auto;
-        border-radius: 15px;
-      }
+    .container-grande {
+      height: 15vh;
+      width: 80vw;
+      margin: 20px auto;
+      border-radius: 15px;
     }
   }
 }
