@@ -105,6 +105,23 @@ header {
   .colecciones a:hover {
     transform: scale(1.15); }
 
+.inicio {
+  cursor: pointer; }
+
+#scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #A78295;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; }
+
+#scrollToTop:hover {
+  background: #966d82; }
+
 .swal-overlay {
   background-color: lightyellow; }
 

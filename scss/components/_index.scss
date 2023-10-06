@@ -52,6 +52,24 @@
     }
 }
 
+.inicio {
+    cursor: pointer;
+  }
+  #scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: $bg-header;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  #scrollToTop:hover {
+    background: $bg-details3;
+  }
+
 .swal-overlay{
     background-color: lightyellow;
 }
