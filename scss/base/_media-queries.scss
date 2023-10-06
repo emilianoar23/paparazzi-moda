@@ -1,6 +1,7 @@
 /*------------- MEDIA QUERIES --------------*/
 /*----------------- MOBILE -----------------*/
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+
   /*------------------ HOME ------------------*/
   .home-hsection {
     margin: 0;
@@ -29,23 +30,52 @@
       img {
         width: 90vw;
         margin: 25px auto 0px;
+      }
     }
-  }
-  .accesorios {
-    flex-direction: column;
-    padding: 0px;
-    img {
-      width: 90vw;
-      margin: 25px auto 0px;
-  }
-}
+    .accesorios {
+      flex-direction: column;
+      padding: 0px;
+      img {
+        width: 90vw;
+        margin: 25px auto 0px;
+      }
+    }
     a {
       font-size: 3rem;
       margin: 35px;
     }
   }
 
+  /*------------- MEDIOS DE PAGO -------------*/
+  .mpago {
+    .hero-mpago {
+      width: auto;
+      height: 35vh;
 
+      h2 {
+        margin: 30px 30px;
+        font-size: 2rem;
+      }
+
+      .mpago-container {
+        flex-direction: column;
+      }
+
+      .container-chico {
+        height: 15vh;
+        width: 80vw;
+        margin: 20px auto;
+        border-radius: 15px;
+      }
+
+      .container-grande {
+        height: 15vh;
+        width: 80vw;
+        margin: 20px auto;
+        border-radius: 15px;
+      }
+    }
+  }
 }
 
 

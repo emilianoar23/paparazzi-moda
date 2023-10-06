@@ -595,7 +595,26 @@ footer {
         margin: 25px auto 0px; }
     .colecciones a {
       font-size: 3rem;
-      margin: 35px; } }
+      margin: 35px; }
+  /*------------- MEDIOS DE PAGO -------------*/
+  .mpago .hero-mpago {
+    width: auto;
+    height: 35vh; }
+    .mpago .hero-mpago h2 {
+      margin: 30px 30px;
+      font-size: 2rem; }
+    .mpago .hero-mpago .mpago-container {
+      flex-direction: column; }
+    .mpago .hero-mpago .container-chico {
+      height: 15vh;
+      width: 80vw;
+      margin: 20px auto;
+      border-radius: 15px; }
+    .mpago .hero-mpago .container-grande {
+      height: 15vh;
+      width: 80vw;
+      margin: 20px auto;
+      border-radius: 15px; } }
 
 @media screen and (max-width: 768px) {
   body {
