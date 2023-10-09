@@ -43,7 +43,6 @@ header {
         border-radius: 5px; }
         header .navbar .nav-links .dropdown .btn {
           border-color: #966d82;
-          text-transform: uppercase;
           color: #eeeeee; }
           header .navbar .nav-links .dropdown .btn:hover {
             background-color: #9b6581; }
@@ -56,8 +55,7 @@ header {
           background-color: #966d82;
           border-color: #966d82;
           color: #eeeeee;
-          text-decoration: none;
-          text-transform: uppercase; }
+          text-decoration: none; }
           header .navbar .nav-links li a:hover {
             background-color: #9b6581; }
   header .menu-icon {

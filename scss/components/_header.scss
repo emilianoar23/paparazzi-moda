@@ -27,7 +27,6 @@ header {
                 border-radius: 5px;
                 .btn {
                     border-color: $bg-details3;
-                    text-transform: uppercase;
                     color: $font-white;
                     &:hover {
                         background-color: $bg-details4;
@@ -45,7 +44,6 @@ header {
                     border-color: $bg-details3;
                     color: $font-white;
                     text-decoration: none;
-                    text-transform: uppercase;
                     &:hover {
                         background-color: $bg-details4;
                     }
