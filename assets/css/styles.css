@@ -43,6 +43,7 @@ header {
         border-radius: 5px; }
         header .navbar .nav-links .dropdown .btn {
           border-color: #966d82;
+          text-transform: uppercase;
           color: #eeeeee; }
           header .navbar .nav-links .dropdown .btn:hover {
             background-color: #9b6581; }
