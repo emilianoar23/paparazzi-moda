@@ -22,13 +22,32 @@ header {
             text-align: center;
             width: 45%;
             list-style-type: none;
+            .dropdown {
+                background-color: $bg-details3;
+                border-radius: 5px;
+                .btn {
+                    border-color: $bg-details3;
+                    color: $font-white;
+                    &:hover {
+                        background-color: $bg-details4;
+                    }
+                }
+                .dropdown-menu {
+                    background-color: $bg-details3;
+            }
+        }
             li {
                 margin: 0 1.2rem;
                 a {
                     font-size: 0.9rem;
+                    background-color: $bg-details3;
+                    border-color: $bg-details3;
                     color: $font-white;
                     text-decoration: none;
                     text-transform: uppercase;
+                    &:hover {
+                        background-color: $bg-details4;
+                    }
                 }
             }
         }

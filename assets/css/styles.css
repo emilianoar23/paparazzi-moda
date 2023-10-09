@@ -38,13 +38,27 @@ header {
       text-align: center;
       width: 45%;
       list-style-type: none; }
+      header .navbar .nav-links .dropdown {
+        background-color: #966d82;
+        border-radius: 5px; }
+        header .navbar .nav-links .dropdown .btn {
+          border-color: #966d82;
+          color: #eeeeee; }
+          header .navbar .nav-links .dropdown .btn:hover {
+            background-color: #9b6581; }
+        header .navbar .nav-links .dropdown .dropdown-menu {
+          background-color: #966d82; }
       header .navbar .nav-links li {
         margin: 0 1.2rem; }
         header .navbar .nav-links li a {
           font-size: 0.9rem;
+          background-color: #966d82;
+          border-color: #966d82;
           color: #eeeeee;
           text-decoration: none;
           text-transform: uppercase; }
+          header .navbar .nav-links li a:hover {
+            background-color: #9b6581; }
   header .menu-icon {
     display: none;
     cursor: pointer;
