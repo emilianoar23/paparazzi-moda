@@ -107,20 +107,20 @@ header {
 .inicio {
   cursor: pointer; }
   .inicio img {
-    width: 35px; }
+    width: 30px; }
 
 #scrollToTop {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #A78295;
+  background: #EFE1D1;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border: none;
   border-radius: 100%; }
   #scrollToTop:hover {
-    background: #966d82; }
+    background: #ecceac; }
 
 .swal-overlay {
   background-color: lightyellow; }

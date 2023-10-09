@@ -55,7 +55,7 @@
 .inicio {
     cursor: pointer;
     img {
-        width: 35px;
+        width: 30px;
     }
 }
 
@@ -64,13 +64,13 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: $bg-header;
+    background: $bg-color;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 15px;
     border: none;
     border-radius: 100%;
     &:hover {
-        background: $bg-details3;
+        background: $bg-color2;
     }
 }
 
