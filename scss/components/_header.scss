@@ -4,11 +4,12 @@ header {
     background-color: $bg-header;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
     .navbar {
-        display: flex;
         justify-content: space-around;
         align-items: center;
         min-height: 14vh;
         .logo {
+            display: flex;
+            align-items: center;
             color: $font-white;
             text-transform: uppercase;
             text-decoration: none;
@@ -18,7 +19,6 @@ header {
         .nav-links {
             display: flex;
             justify-content: space-around;
-            align-items: center;
             text-align: center;
             width: 45%;
             list-style-type: none;
