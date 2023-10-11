@@ -29,7 +29,6 @@ header {
       align-items: center;
       color: #eeeeee;
       text-transform: uppercase;
-      text-decoration: none;
       font-weight: bold;
       letter-spacing: 5px; }
     header .navbar .nav-links {
@@ -505,15 +504,15 @@ footer {
     justify-content: space-around;
     align-items: baseline;
     margin: 30px; }
+    footer .footer-secciones h3 {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 10px; }
     footer .footer-secciones .canales-contacto {
       align-items: center;
       justify-content: center;
       margin: 15px;
       font-weight: bold; }
-      footer .footer-secciones .canales-contacto h3 {
-        text-align: center;
-        font-size: 1.2em;
-        margin-bottom: 10px; }
       footer .footer-secciones .canales-contacto .telefono {
         display: flex;
         align-items: center;
@@ -564,14 +563,13 @@ footer {
     font-size: 1.1rem;
     text-align: center; }
     footer .derechos h3 {
+      font-size: 1.7rem;
       text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
       letter-spacing: 5px;
-      margin: 15px; }
+      margin: 15px 0; }
     footer .derechos p {
-      font-weight: 300;
-      margin-bottom: 10px; }
+      font-size: 1rem;
+      font-weight: 300; }
 
 /*------------- MEDIA QUERIES --------------*/
 /*----------------- MOBILE -----------------*/
