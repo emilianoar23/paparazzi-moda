@@ -625,7 +625,31 @@ footer {
     height: 15vh;
     width: 80vw;
     margin: 20px auto;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  /*---------------- CONTACTO ----------------*/
+  .contacto .hero-contacto {
+    width: auto;
+    height: 35vh; }
+  .contacto h2 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 3rem; }
+  .contacto h3 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 2rem; }
+  .container-formulario {
+    width: auto;
+    margin: 15px; }
+    .container-formulario .titulo {
+      font-size: 1.6rem;
+      text-align: center; }
+    .container-formulario .form-boton {
+      font-size: 1.1rem; }
+  .modal-contenido {
+    max-width: 80%;
+    font-size: 1em;
+    font-weight: 600; } }
 
 @media screen and (max-width: 768px) {
   body {

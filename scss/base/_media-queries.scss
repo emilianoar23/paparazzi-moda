@@ -76,6 +76,46 @@
       border-radius: 15px;
     }
   }
+/*---------------- CONTACTO ----------------*/
+.contacto {
+  .hero-contacto {
+    width: auto;
+    height: 35vh;
+  }
+  h2 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 3rem;
+  }
+  h3 {
+    text-align: center;
+    margin: 30px 30px;
+    font-size: 2rem;
+  }
+}
+  .container-formulario {
+    width: auto;
+    margin: 15px;
+    .titulo {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    .form-boton {
+      font-size: 1.1rem;
+    }
+  }
+
+
+
+
+
+.modal-contenido {
+  max-width: 80%;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+
 }
 
 
