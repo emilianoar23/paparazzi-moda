@@ -123,96 +123,38 @@
 
 
 @media screen and (max-width: 768px) {
-    body {
-      overflow: hidden;
-    }
-  
-    .navbar .menu-icon {
-      display: block;
-      z-index: 99999;
-    }
-  
-    .navbar .logo {
-      flex-grow: 1;
-    }
-  
-    .navbar ul.nav-links {
-      position: absolute;
-      top: 15vh; 
-      height: 82vh;
-      left: 0px;
-      justify-content: space-evenly;
-      flex-direction: column;
-      align-items: center;
-      background-color: $bg-details2;
-      transform: translateX(-100%);
-      transition: transform 0.5s ease-in;
-      width: 50%;
-    }
+  .navbar .menu-icon {
+    display: block;
+    z-index: 99999;
+  }
 
-    .navbar ul.nav-links li {
-      opacity: 0;
-    }
-  
-    #content h1.content-header {
-      font-size: 25px;
-    }
-  
-    #content p.content-para {
-      font-size: 13px;
-    }
+  .navbar .logo {
+    flex-grow: 1;
   }
-  
-  .navbar ul.nav-links.menu-active {
-    transform: translateX(0%);
-    opacity: 1;
+
+  .navbar ul.nav-links {
+    position: absolute;
+    top: 15vh;
+    height: 82vh;
+    left: 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: $bg-details2;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+    width: 50%;
   }
-  
-  @keyframes navLinkAnime {
-    from {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
-  
-  .navbar .menu-icon.span-anime span:first-child {
-    transform: rotate(-135deg) translate(-20px, 6px);
-    margin-left: -18px;
-  }
-  
-  .navbar .menu-icon.span-anime span:nth-child(2) {
+
+  .navbar ul.nav-links li {
     opacity: 0;
   }
-  
-  .navbar .menu-icon.span-anime span:last-child {
-    transform: rotate(135deg) translate(-19px, -5px);
-    margin-left: -17px;
+
+  #content h1.content-header {
+    font-size: 25px;
   }
-  
-  #content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 82vh; 
-    margin-top: -18vh; 
-    font-weight: bold;
-    font-family: monospace;
-    letter-spacing: 1px;
+
+  #content p.content-para {
+    font-size: 13px;
   }
-  
-  #content h1 {
-    text-transform: uppercase;
-    padding: 25px 25px 10px;
-    margin: 25px 25px 0;
-    font-size: 52px;
-  }
-  
-  #content p {
-    font-size: 21px;
-  }
+}

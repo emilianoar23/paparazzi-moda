@@ -40,6 +40,6 @@ $('.inicio').click(function(event) {
 
   $('html, body').animate({
     scrollTop: target
-  }, 800);
+  }, 1000);
   event.preventDefault();
 });
