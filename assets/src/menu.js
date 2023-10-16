@@ -22,10 +22,8 @@ const menuSlide = () => {
 
 menuSlide();
 
-// Ocultar el icono de inicio al principio
 $('.inicio').hide();
 
-// Mostrar u ocultar el icono de inicio según el desplazamiento
 $(window).scroll(function() {
   if ($(this).scrollTop() > 20) {
     $('.inicio').fadeIn();
@@ -34,12 +32,11 @@ $(window).scroll(function() {
   }
 });
 
-// Desplazamiento suave al hacer clic en el icono de inicio
 $('.inicio').click(function(event) {
   let target = $('html, body').offset().top;
 
   $('html, body').animate({
     scrollTop: target
-  }, 1000);
+  }, 100);
   event.preventDefault();
 });
