@@ -648,7 +648,32 @@ footer {
   .modal-contenido {
     max-width: 80%;
     font-size: 1em;
-    font-weight: 600; } }
+    font-weight: 600; }
+  /*----------------- FOOTER -----------------*/
+  footer {
+    display: flex;
+    flex-direction: column; }
+    footer .footer-secciones {
+      flex-direction: column;
+      margin: auto; }
+      footer .footer-secciones h3 {
+        text-align: center; }
+      footer .footer-secciones .canales-contacto {
+        margin: 30px auto; }
+      footer .footer-secciones .redes-sociales {
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto 30px; }
+      footer .footer-secciones .medios-pago {
+        margin: 0px auto 30px; }
+    footer .derechos {
+      margin: 30px auto; }
+      footer .derechos h3 {
+        font-size: 0.9rem; }
+      footer .derechos p {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 5px; } }
 
 @media screen and (max-width: 768px) {
   .navbar .menu-icon {

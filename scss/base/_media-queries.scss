@@ -114,7 +114,40 @@
   font-size: 1em;
   font-weight: 600;
 }
-
+/*----------------- FOOTER -----------------*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    .footer-secciones {
+      flex-direction: column;
+      margin: auto;
+      h3 {
+        text-align: center;
+      }
+      .canales-contacto {
+        margin: 30px auto;
+      }
+      .redes-sociales {
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto 30px;
+      }
+      .medios-pago {
+        margin: 0px auto 30px;
+      }
+    }
+    .derechos {
+      margin: 30px auto;
+      h3 {
+        font-size: 0.9rem;
+      }
+      p {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 5px;
+      }
+    }
+  }
 
 }
 
