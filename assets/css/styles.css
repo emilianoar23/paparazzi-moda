@@ -607,6 +607,16 @@ footer {
     .colecciones a {
       font-size: 3rem;
       margin: 35px; }
+  /*-----------------ACCESORIOS--------------*/
+  .container-accesorios {
+    width: auto;
+    height: 35vh; }
+    .container-accesorios .banner {
+      width: 80%;
+      height: 30vh; }
+      .container-accesorios .banner h2 {
+        font-size: 2.5em;
+        margin: 5px; }
   /*---------------COLECCIÓN HOMBRE---------*/
   .container-hombre {
     width: auto;
