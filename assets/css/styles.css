@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
 * {
   margin: 0;
@@ -606,25 +607,36 @@ footer {
     .colecciones a {
       font-size: 3rem;
       margin: 35px; }
-  /*------------- MEDIOS DE PAGO -------------*/
-  .mpago .hero-mpago {
+  /*---------------COLECCIÓN HOMBRE---------*/
+  .container-hombre {
     width: auto;
     height: 35vh; }
-  .mpago h2 {
-    margin: 30px 30px;
-    font-size: 2rem; }
-  .mpago .mpago-container {
-    flex-direction: column; }
-  .mpago .container-chico {
-    height: 15vh;
-    width: 80vw;
-    margin: 20px auto;
-    border-radius: 15px; }
-  .mpago .container-grande {
-    height: 15vh;
-    width: 80vw;
-    margin: 20px auto;
-    border-radius: 15px; }
+    .container-hombre .banner {
+      width: 80%;
+      height: 30vh; }
+      .container-hombre .banner h2 {
+        font-size: 2.5em;
+        margin: 5px; }
+  /*------------- COLECCION MUJER ------------*/
+  .container-mujer {
+    width: auto;
+    height: 35vh; }
+    .container-mujer .banner {
+      width: 80%;
+      height: 30vh; }
+      .container-mujer .banner h2 {
+        font-size: 2.5em;
+        margin: 5px; }
+  .catalogo {
+    gap: 1rem;
+    margin: 10px auto 30px; }
+    .catalogo .cont2 {
+      width: 250px;
+      margin: 0; }
+      .catalogo .cont2 .prod {
+        width: 250px;
+        height: auto;
+        margin: 0; }
   /*---------------- CONTACTO ----------------*/
   .contacto .hero-contacto {
     width: auto;
@@ -649,6 +661,25 @@ footer {
     max-width: 80%;
     font-size: 1em;
     font-weight: 600; }
+  /*------------- MEDIOS DE PAGO -------------*/
+  .mpago .hero-mpago {
+    width: auto;
+    height: 35vh; }
+  .mpago h2 {
+    margin: 30px 30px;
+    font-size: 2rem; }
+  .mpago .mpago-container {
+    flex-direction: column; }
+  .mpago .container-chico {
+    height: 15vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 15px; }
+  .mpago .container-grande {
+    height: 15vh;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 15px; }
   /*----------------- FOOTER -----------------*/
   footer {
     display: flex;
