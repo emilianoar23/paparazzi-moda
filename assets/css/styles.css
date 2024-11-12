@@ -58,7 +58,7 @@ header .navbar .nav-links .dropdown .btn {
   color: #eeeeee;
 }
 header .navbar .nav-links .dropdown .btn:hover {
-  background-color: #9b6581;
+  background-color: #565154;
 }
 header .navbar .nav-links .dropdown .dropdown-menu {
   background-color: #75966d;
@@ -74,7 +74,7 @@ header .navbar .nav-links li a {
   text-decoration: none;
 }
 header .navbar .nav-links li a:hover {
-  background-color: #9b6581;
+  background-color: #565154;
 }
 header .menu-icon {
   display: none;
