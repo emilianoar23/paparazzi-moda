@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #DFD3C3;
+  background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
   max-width: 1920px;
@@ -46,30 +46,30 @@ header .navbar .nav-links {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  width: 45%;
+  width: 44%;
   list-style-type: none;
 }
 header .navbar .nav-links .dropdown {
-  background-color: #75966d;
+  background-color: #828ea7;
   border-radius: 5px;
 }
 header .navbar .nav-links .dropdown .btn {
-  border-color: #75966d;
+  border-color: #828ea7;
   color: #eeeeee;
 }
 header .navbar .nav-links .dropdown .btn:hover {
   background-color: #565154;
 }
 header .navbar .nav-links .dropdown .dropdown-menu {
-  background-color: #75966d;
+  background-color: #828ea7;
 }
 header .navbar .nav-links li {
   margin: 0 1.2rem;
 }
 header .navbar .nav-links li a {
-  font-size: 0.9rem;
-  background-color: #75966d;
-  border-color: #75966d;
+  font-size: 1rem;
+  background-color: #828ea7;
+  border-color: #828ea7;
   color: #eeeeee;
   text-decoration: none;
 }
@@ -154,22 +154,22 @@ header .menu-icon span {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #EFE1D1;
+  background: #e7efff;
   color: white;
   padding: 5px 15px;
   border: none;
   border-radius: 100%;
 }
 #scrollToTop:hover {
-  background: #ecceac;
+  background: #e7efff;
 }
 
 .swal-overlay {
-  background-color: lightyellow;
+  background-color: rgb(255, 255, 255);
 }
 
 .swal-modal {
-  border: 3px solid whitesmoke;
+  border: 3px solid rgb(255, 255, 255);
 }
 
 .container-mujer {
@@ -582,7 +582,7 @@ header .menu-icon span {
 }
 
 footer {
-  background-color: #331D2C;
+  background-color: #828ea7;
   color: #eeeeee;
   font-weight: lighter;
 }

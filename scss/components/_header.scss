@@ -19,7 +19,7 @@ header {
             display: flex;
             justify-content: space-around;
             text-align: center;
-            width: 45%;
+            width: 44%;
             list-style-type: none;
             .dropdown {
                 background-color: $bg-details3;
@@ -38,7 +38,7 @@ header {
             li {
                 margin: 0 1.2rem;
                 a {
-                    font-size: 0.9rem;
+                    font-size: 1rem;
                     background-color: $bg-details3;
                     border-color: $bg-details3;
                     color: $font-white;
